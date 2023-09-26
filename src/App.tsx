@@ -26,7 +26,7 @@ function App() {
         <h1>Войти</h1>
       </Link>
       <Link to='/singup' style={{ textDecoration: 'none' }}>
-        <h1>Зарегестрироваться</h1>
+        <h1>Регистрация</h1>
         </Link>
       </div>
       

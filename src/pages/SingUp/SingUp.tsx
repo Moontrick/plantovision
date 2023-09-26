@@ -54,7 +54,7 @@ function SingUp() {
             <a>Почта</a>
             <div className='logIn_user_password_block'>
               <div className='logIn_user_password_block_icon' id='logIn_user_email_block_icon'/>
-              <input type='password' placeholder='Введите почту...' value={email}
+              <input  placeholder='Введите почту...' value={email}
                 onChange={(e) => setEmail(e.target.value)}></input>
             </div>
           </div>

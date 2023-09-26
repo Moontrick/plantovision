@@ -62,12 +62,14 @@
 }
 
 .Profile_image_icon {
+  cursor: pointer;
   width: 75%;
   height: 75%;
   border-radius: 50%;
-  background: url(../../assets/images/mir.jpg) center center no-repeat;
+  background: url(../../assets/icons/logIn_icon.svg) center center no-repeat;
   margin-bottom: 1vh;
   display: flex;
+  background-size: cover;
   position: relative;
   overflow: hidden; /* Добавляем, чтобы обрезать overlay */
 }
@@ -102,10 +104,11 @@ button {
 }
 
 .Profile_image_name a {
-  margin-right: 1vh;
   font-size: 2vh;
 }
-
+#Profile_image_name_code{
+  color:gray
+}
 .Profile_info {
   display: flex;
   align-items: center;
@@ -274,6 +277,7 @@ box-shadow: 0em 0 1em rgba(0,247,255,1);
   margin-bottom: 5vh;
 }
 .SaveButton {
+  cursor: pointer;
   margin-top: 30px;
   background-color: #007bff; /* Синий цвет фона кнопки */
   color: white; /* Белый цвет текста кнопки */
@@ -371,6 +375,7 @@ margin-top: 3vh;
   flex-direction: column;
 }
 .Profile_setting_bt{
+  cursor: pointer;
   display: flex;
   flex-direction: column;
   align-items: center;

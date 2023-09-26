@@ -29,7 +29,7 @@ function Profile() {
     // Дополнительный код для сохранения данных, например, отправка на сервер
   };
 
-  const [image, setImage] = useState(`url('../../assets/images/mir.jpg'`); // Путь к изображению по умолчанию
+  const [image, setImage] = useState(`url('../../assets/icons/image_clear.svg'`); // Путь к изображению по умолчанию
 
   const handleImageChange = (event:any) => {
     console.log(event.target.files[0])
@@ -133,8 +133,8 @@ function Profile() {
         </div>
       </div>
       <div className='Profile_image_name'>
-        <a>Сергей</a>
-        <a>Миронов</a>
+        <a>Moontrick</a>
+        <a id='Profile_image_name_code'>#{"cxfMwwFV1"}</a>
       </div>
 
       </div>
@@ -174,11 +174,12 @@ function Profile() {
         <div className='Profile_info_text'>
           <div className='Profile_info_text_date'>
             <h1>Дата последнего изучения: </h1>
-            <a>02.08.2023</a>
+            <a>05.09.2023</a>
           </div>
           <div className='Profile_info_text_date'>
             <h1>Результат: </h1>
-            <a>Отклонение 1 пальца, плоскостопие</a>
+            <a>0.41836578230784255 Плоскостопие 1 степени, Нормальная стопа, 33.84825487442263
+Вальгусоское отклонение первого пальца</a>
           </div>
         </div>
       </div>
